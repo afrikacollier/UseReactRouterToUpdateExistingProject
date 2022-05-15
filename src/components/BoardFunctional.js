@@ -1,9 +1,9 @@
 //There are two ways to implement a component.
 
-//There are what we call "Class based comoponents"
+//There are what we call "Class based components"
 //There are "functional" components that are implemented by declaring a function.
 
-//OLD school REACT always use class based componets, ES6 style classes.
+//OLD school REACT always use class based components, ES6 style classes.
 
 //But modern REACT is often written using the functional style..
 //The slides that we are using use the old school class component
