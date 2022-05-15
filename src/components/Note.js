@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types';
 import '../css/Note.css';
+import Edit from './Edit';
+import Delete from './Delete';
 
 function Note(props) {
     return (
@@ -8,8 +10,8 @@ function Note(props) {
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
                     <p>{props.body}</p>               
-                    <button className="btn btn-info">Edit</button>
-                    <button className="btn btn-danger">Delete</button>
+                    <Edit/>
+                    <Delete/>
                 </div>
             </div>
         </div>

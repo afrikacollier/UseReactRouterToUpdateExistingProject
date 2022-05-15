@@ -7,9 +7,10 @@ function Delete(props) {
     function handleButton(event) {
       //We want to switch pages....to go to the home page..
       //HOW DO WE DO THIS?
-      navigate("/", { replace:false, state: { login: props.login } });
+      navigate("/delete", { replace:false, state: { login: props.login } });
     }
-    return <button onClick={handleButton}>Push</button>;
+    return <button className="btn btn-danger" onClick={handleButton}>Delete</button>;
 }
 
 export default Delete;
+
